@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formValidation.css">
+    <script defer src="formValidation.js"></script>
+    <link rel="icon" href="userIcon.png" type="image/x-icon">
+    <title>Create account page</title>
+</head>
+<body>
+    <div id="login-container">
+        <h1 id="header">Create account</h1>
+        <form id="form">
+            <div class="div-wrappers" id="name-box">
+                <label for="name-input">Name: </label><br>
+                <input class="input-elements" type="text" id="name-input" name="name-input" required>
+            </div>
+
+            <div id="name-error-box">
+                <!-- p tag -->
+            </div>
+            
+            <div id="name-free-space" style="height: 30px;"></div>
+
+            <div class="div-wrappers" id="email-box">
+                <label for="email-input">Email: </label><br>
+                <input class="input-elements" type="email" id="email-input" name="email-input" required>
+            </div>
+
+            <div id="email-error-box">
+                <!-- p tag -->
+            </div>
+
+            <div id="email-free-space" style="height: 30px;"></div>
+
+            <div class="div-wrappers" id="password-box">
+                <label for="password-input">Password: </label><br>
+                <input class="input-elements" type="password" id="password-input" name="password-input" required>
+            </div>
+
+            <div id="password-error-box">
+                <!-- p tag -->
+            </div>
+
+            <div id="password-free-space" style="height: 30px;"></div>
+
+            <div class="div-wrappers" id="submit-box">
+                <input class="input-elements" type="submit" id="submit-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
